@@ -133,7 +133,7 @@ setupAppdEnv() {
 
   echo export APP_SERVER_AGENT_JAVA_OPTS="\"-Dappdynamics.controller.hostName=${APPD_CONTROLLER} -Dappdynamics.controller.port=${APPD_PORT} -Dappdynamics.controller.ssl.enabled=${APPD_SSL} -Dappdynamics.agent.applicationName=${APPD_APP_NAME} -Dappdynamics.agent.tierName=${APPD_TIER_NAME} -Dappdynamics.agent.nodeName=${APPD_NODE_NAME} -Dappdynamics.agent.accountName=${APPD_ACCOUNT_NAME} -Dappdynamics.agent.accountAccessKey=${APPD_ACCESS_KEY}"\" >> /env.sh
 
-  echo export DB_AGENT_JAVA_OPTS="\"-Dappdynamics.controller.hostName=${APPD_CONTROLLER} -Dappdynamics.controller.port=${APPD_PORT} -Dappdynamics.controller.ssl.enabled=${APPD_SSL} -Dappdynamics.agent.accountName= ${APPD_ACCOUNT_NAME} -Dappdynamics.agent.accountAccessKey=${APPD_ACCESS_KEY}"\" >> /env.sh
+  echo export DB_AGENT_JAVA_OPTS="\"-Dappdynamics.controller.hostName=${APPD_CONTROLLER} -Dappdynamics.controller.port=${APPD_PORT} -Dappdynamics.controller.ssl.enabled=${APPD_SSL} -Dappdynamics.agent.accountName=${APPD_ACCOUNT_NAME} -Dappdynamics.agent.accountAccessKey=${APPD_ACCESS_KEY}"\" >> /env.sh
 
   echo export MACHINE_AGENT_JAVA_OPTS="\"-Dappdynamics.controller.hostName=${APPD_CONTROLLER} -Dappdynamics.controller.port=${APPD_PORT} -Dappdynamics.controller.ssl.enabled=${APPD_SSL} -Dappdynamics.agent.applicationName=${APPD_APP_NAME} -Dappdynamics.agent.tierName=${APPD_TIER_NAME} -Dappdynamics.agent.nodeName=${APPD_NODE_NAME} -Dappdynamics.agent.accountName=${APPD_ACCOUNT_NAME} -Dappdynamics.agent.accountAccessKey=${APPD_ACCESS_KEY}"\" >> /env.sh
 
